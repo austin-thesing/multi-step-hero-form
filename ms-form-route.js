@@ -13,7 +13,7 @@ document.querySelector("[data-form='submit-btn']").addEventListener("click", fun
     setTimeout(function () {
       window.location.href = "https://app.onrampfunds.com/signup"; // Redirect to the URL
     }, 5000); // Delay the redirection for 5 seconds
-  } else if (selectedOption === "is-call") {
+  } else if (selectedOption === "is-talk") {
     event.preventDefault(); // Prevent the form from submitting normally
 
     // Update the success message for 'is-call'
