@@ -17,7 +17,7 @@ document.querySelector("[data-form='submit-btn']").addEventListener("click", fun
     event.preventDefault(); // Prevent the form from submitting normally
 
     // Update the success message for 'is-call'
-    successMessageElement.innerHTML = "Thank you for your interest! We're redirecting you to a page where you can schedule a call at your desired time.'";
+    successMessageElement.innerHTML = "Thank you for your interest! We're redirecting you to a page where you can schedule a call at your desired time.";
 
     // Redirect to a different page after a delay
     setTimeout(function () {
