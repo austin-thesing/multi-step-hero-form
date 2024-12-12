@@ -12,7 +12,7 @@ document.querySelector("[data-form='submit-btn']").addEventListener("click", fun
     // Then set the timeout for redirection
     setTimeout(function () {
       window.location.href = "https://app.onrampfunds.com/signup"; // Redirect to the URL
-    }, 3000); // Delay the redirection for 5 seconds
+    }, 0); // Delay the redirection for 5 seconds
   } else if (selectedOption === "is-talk") {
     event.preventDefault(); // Prevent the form from submitting normally
 
@@ -22,7 +22,7 @@ document.querySelector("[data-form='submit-btn']").addEventListener("click", fun
     // Redirect to a different page after a delay
     setTimeout(function () {
       window.location.href = "https://www.onrampfunds.com/schedule-a-call"; // Redirect to the contact page
-    }, 3000); // Delay the redirection for 5 seconds
+    }, 0); // Delay the redirection for 5 seconds
   } else {
     // Failsafe message goes here.
     successMessageElement.textContent = "Each and every business matters to us, and we're eager to hear more about yours. A funding expert from our team will reach out shortly!";
